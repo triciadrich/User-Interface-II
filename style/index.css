@@ -1,1 +1,95 @@
 /* Add CSS styling here */
+@keyframes pulse {
+  0% {
+    background-color: navy;
+  }
+  100% {
+    background-color: aliceblue;
+  }
+}
+
+header {
+  margin: 5px;
+  background-color: aliceblue;
+  animation: pulse 10s 2;
+  font-family: ;
+}
+
+.nav {
+  background-color: navy;
+  color: aliceblue;
+  padding: 5px;
+  border: 5px solid blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+h1 {
+  color: navy;
+}
+
+.containerrow {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px;
+}
+
+button {
+  background-color: #7fb1bf;
+  color: black;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+}
+.about {
+  justify-content: center;
+  padding: 5px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.gal {
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 10% 0;
+}
+
+footer {
+  margin: 5px;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
