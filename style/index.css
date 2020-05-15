@@ -1,1 +1,148 @@
 /* Add CSS styling here */
+html {
+  font-size: 62.5%;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: navy;
+  }
+  100% {
+    background-color: aliceblue;
+  }
+}
+
+header {
+  margin: 5px;
+  background-color: aliceblue;
+  animation: pulse 10s 2;
+}
+
+.nav {
+  background-color: navy;
+  color: aliceblue;
+  padding: 5px;
+  border: 5px solid blue;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+h1 {
+  color: navy;
+}
+.profile {
+  width: ;
+}
+.containerrow {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px;
+}
+
+p {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+@media (max-width: 800px) {
+  .containerrow {
+    flex-direction: column;
+  }
+
+  body {
+    background-color: black;
+    color: white;
+  }
+  footer {
+    color: black;
+  }
+}
+
+@media (max-width: 500px) {
+  .containerrow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    flex-direction: row;
+  }
+
+  .gallery {
+    flex-direction: ;
+  }
+}
+
+@media (max-width: 336px) {
+  .nav {
+    font-size: 1rem;
+  }
+}
+
+button {
+  background-color: #7fb1bf;
+  color: black;
+  height: 50px;
+  width: 20%;
+  border-radius: 10px;
+}
+.about {
+  justify-content: right;
+  padding: 5px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.gal {
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.gallery {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 10% 0;
+}
+
+footer {
+  margin: 5px;
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.icon {
+  height: 2%;
+  width: 2%;
+  padding: 5px;
+}
